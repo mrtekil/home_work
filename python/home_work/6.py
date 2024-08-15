@@ -4,7 +4,7 @@ glasniye = 0
 soglasniye = 0
 
 for letter in word:
-    if letter in "aeiou":
+    if letter in "aeioqu":
         glasniye += 1
     elif letter in "bcdfghjklmnpqrstvwxyz":
         soglasniye += 1
